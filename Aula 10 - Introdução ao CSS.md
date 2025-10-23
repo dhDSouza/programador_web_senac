@@ -37,7 +37,7 @@ Aplicado **diretamente na tag HTML** com o atributo `style`.
 <p style="color: blue; font-size: 18px;">Olá, mundo!</p>
 ```
 
-💬 **Vantagem:** rápido e simples pra testar algo.
+💬 **Vantagem:** rápido e simples pra testar algo.   
 ⚠️ **Desvantagem:** difícil de manter — cada elemento precisa ser alterado manualmente.
 
 ---
@@ -65,7 +65,7 @@ Adicionado dentro da tag `<style>` no `<head>` do HTML.
 </html>
 ```
 
-💬 **Vantagem:** centraliza o estilo dentro do mesmo arquivo.
+💬 **Vantagem:** centraliza o estilo dentro do mesmo arquivo.   
 ⚠️ **Desvantagem:** ainda não é ideal pra sites com várias páginas.
 
 ---
@@ -101,6 +101,7 @@ p {
 ```
 
 💬 **Vantagens:** fácil manutenção, reutilização e melhor performance.
+
 ⚠️ **Desvantagem:** precisa gerenciar mais arquivos.
 
 ---
