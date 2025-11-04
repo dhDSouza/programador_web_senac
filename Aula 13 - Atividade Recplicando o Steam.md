@@ -63,4 +63,4 @@ Use a imagem fornecida (`Home.png`) como **modelo visual**. Você deverá tentar
   * `index.html`
   * `style.css`
   * Imagens utilizadas (pode usar imagens similares da internet)
-  * Depois de testado e pronto, compacte o projeto para um arquivo zipado (`.zip`) e envie na [discussão](https://github.com/dhDSouza/programacao_web_adolescencetes/discussions/1).
+  * Depois de testado e pronto, compacte o projeto para um arquivo zipado (`.zip`) e envie na [discussão](https://github.com/dhDSouza/programador_web_senac/discussions/10).
