@@ -199,4 +199,4 @@ A ideia é treinar lógica e sintaxe simples.
 7. Imprima frutas usando for...of.
 8. Crie uma função que recebe dois números e retorna o maior.
 9. Crie uma arrow function que recebe um array e retorna a soma.
-10. Faça um script com readline que saúda o usuário.
+10. Faça um script com prompt-sync que saúda o usuário.
