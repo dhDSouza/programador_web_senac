@@ -34,7 +34,49 @@ const idade = 20;
 
 ---
 
-## 3️⃣ Tomando decisões: if / else 🔀
+## 3️⃣ Entendendo os operadores 👨🏻‍🏭
+
+### **Operadores Aritméticos (Matemáticos)**
+
+| Operador | Nome          | Descrição                           | Exemplo         | Resultado |
+| -------- | ------------- | ----------------------------------- | --------------- | --------- |
+| `+`      | Adição        | Soma dois valores                   | `5 + 3`         | `8`       |
+| `-`      | Subtração     | Subtrai o segundo valor do primeiro | `10 - 4`        | `6`       |
+| `*`      | Multiplicação | Multiplica dois valores             | `6 * 7`         | `42`      |
+| `/`      | Divisão       | Divide o primeiro pelo segundo      | `20 / 5`        | `4`       |
+| `%`      | Módulo        | Resto da divisão                    | `10 % 3`        | `1`       |
+| `**`     | Exponenciação | Eleva o valor à potência            | `2 ** 3`        | `8`       |
+| `++`     | Incremento    | Soma 1 ao valor                     | `let a=5; a++;` | `6`       |
+| `--`     | Decremento    | Subtrai 1 do valor                  | `let a=5; a--;` | `4`       |
+
+---
+
+### **Operadores Comparativos**
+
+| Operador | Nome              | Descrição                             | Exemplo     | Resultado |
+| -------- | ----------------- | ------------------------------------- | ----------- | --------- |
+| `==`     | Igualdade         | Compara valores (conversão implícita) | `5 == "5"`  | `true`    |
+| `===`    | Igualdade estrita | Compara valor e tipo                  | `5 === "5"` | `false`   |
+| `!=`     | Diferente         | Compara valores (conversão implícita) | `5 != "5"`  | `false`   |
+| `!==`    | Diferente estrito | Compara valor e tipo                  | `5 !== "5"` | `true`    |
+| `>`      | Maior que         | Verifica se o primeiro é maior        | `10 > 3`    | `true`    |
+| `<`      | Menor que         | Verifica se o primeiro é menor        | `2 < 1`     | `false`   |
+| `>=`     | Maior ou igual    |                                       | `5 >= 5`    | `true`    |
+| `<=`     | Menor ou igual    |                                       | `3 <= 10`   | `true`    |
+
+---
+
+### **Operadores Lógicos**
+
+| Operador | Nome           | Descrição                                | Exemplo           | Resultado |
+| -------- | -------------- | ---------------------------------------- | ----------------- | --------- |
+| `&&`     | AND (E lógico) | Retorna true se *ambos* forem true       | `true && false`   | `false`   |
+| `\|\|`   | OR (OU lógico) | Retorna true se *pelo menos um* for true | `true \|\| false` | `true`    |
+| `!`      | NOT (negação)  | Inverte o valor                          | `!true`           | `false`   |
+
+---
+
+## 4️⃣ Tomando decisões: if / else 🔀
 
 Com JavaScript, podemos dizer "se acontecer X, faça Y".
 
@@ -56,7 +98,7 @@ const resultado = nota >= 7 ? "Aprovado" : "Reprovado";
 
 ---
 
-## 4️⃣ Repetindo ações: loops 🔄
+## 5️⃣ Repetindo ações: loops 🔄
 
 Quando precisamos repetir algo várias vezes:
 
@@ -90,7 +132,7 @@ for (const fruta of frutas) {
 
 ---
 
-## 5️⃣ Funções: blocos de código que podemos reutilizar 🛠️
+## 6️⃣ Funções: blocos de código que podemos reutilizar 🛠️
 
 Funções guardam ações para serem executadas depois.
 
@@ -110,7 +152,7 @@ const subtrair = (a, b) => a - b;
 
 ---
 
-## 6️⃣ Executando JavaScript fora do navegador 💻
+## 7️⃣ Executando JavaScript fora do navegador 💻
 
 Com o Node.js instalado, você pode criar um arquivo `.js` e rodar no terminal:
 
@@ -122,7 +164,7 @@ E usar `console.log()` para imprimir mensagens.
 
 ---
 
-## 7️⃣ Entrada de dados no navegador: prompt ✏️
+## 8️⃣ Entrada de dados no navegador: prompt ✏️
 
 No navegador, podemos usar `prompt()` para pedir informações ao usuário.
 
@@ -133,7 +175,7 @@ console.log(`Olá, ${nome}!`);
 
 ---
 
-## 8️⃣ NPM: instalando ferramentas 📦
+## 9️⃣ NPM: instalando ferramentas 📦
 
 O Node tem um gerenciador de pacotes que permite instalar bibliotecas.
 
@@ -144,7 +186,7 @@ npm install express
 
 ---
 
-## 9️⃣ Exercícios para os iniciantes 🏋️
+## 🔟 Exercícios para os iniciantes 🏋️
 
 A ideia é treinar lógica e sintaxe simples.
 
