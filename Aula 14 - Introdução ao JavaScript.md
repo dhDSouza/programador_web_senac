@@ -181,7 +181,7 @@ O Node tem um gerenciador de pacotes que permite instalar bibliotecas.
 
 ```bash
 npm init -y
-npm install express
+npm install prompt-sync
 ```
 
 ---
