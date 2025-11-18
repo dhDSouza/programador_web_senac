@@ -120,14 +120,102 @@ while (contador <= 5) {
 }
 ```
 
-### Trabalhando com arrays
+### Trabalhando com Arrays
+
+Arrays são **listas** onde guardamos vários dados em uma única variável.
 
 ```javascript
-const frutas = ["maçã", "banana", "uva"];
+const listaCompra = ["PS5", "Dollynho", "Pista do Tubarão Hot Wheels"];
+```
 
-for (const fruta of frutas) {
-  console.log(fruta);
+#### 📌 Como acessar um item específico
+
+Cada posição no array tem um índice que começa do **0**.
+
+```javascript
+console.log(listaCompra[0]); // "PS5"
+console.log(listaCompra[2]); // "Pista do Tubarão Hot Wheels"
+```
+
+#### 📏 Como saber o tamanho do array
+
+Usamos `.length`:
+
+```javascript
+console.log(listaCompra.length); // 3
+```
+
+#### ➕ Como adicionar itens
+
+##### **1. No final (mais comum)**
+
+```javascript
+listaCompra.push("Café 3 Corações");
+console.log(listaCompra);
+```
+
+##### **2. No início**
+
+```javascript
+listaCompra.unshift("TV Smart 50 Polegadas");
+console.log(listaCompra);
+```
+
+#### ➖ Como remover itens
+
+##### **1. Do final**
+
+```javascript
+listaCompra.pop(); // remove o último
+```
+
+##### **2. Do início**
+
+```javascript
+listaCompra.shift(); // remove o primeiro
+```
+
+#### ✂️ Como remover um item específico
+
+Usando `splice(indice, quantidade)`:
+
+```javascript
+listaCompra.splice(1, 1); // remove 1 item na posição 1
+```
+
+Exemplo:
+
+```javascript
+const listaCompra = ["PS5", "Bicicleta", "Notebook Gamer Alienware 16 Aurora"];
+listaCompra.splice(1, 1); 
+
+console.log(listaCompra); // ["PS5", "Notebook Gamer Alienware 16 Aurora"]
+```
+
+#### 🔄 Como percorrer o array
+
+##### **for tradicional**
+
+```javascript
+for (let i = 0; i < listaCompra.length; i++) {
+  console.log(listaCompra[i]);
 }
+```
+
+##### **for...of (mais simples)**
+
+```javascript
+for (const item of listaCompra) {
+  console.log(item);
+}
+```
+
+##### **forEach (bem usado no dia a dia)**
+
+```javascript
+listaCompra.forEach((item, index) => {
+  console.log(`Índice ${index}: ${item}`);
+});
 ```
 
 ---
