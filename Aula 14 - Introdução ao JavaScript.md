@@ -288,3 +288,85 @@ A ideia é treinar lógica e sintaxe simples.
 8. Crie uma função que recebe dois números e retorna o maior.
 9. Crie uma arrow function que recebe um array e retorna a soma.
 10. Faça um script com prompt-sync que saúda o usuário.
+
+## 🚀 Exercícios Adicionais 🏋🏻‍♂️
+
+11. Crie um array chamado "cores" com 5 cores diferentes. Exiba no console:
+
+  - A primeira cor
+  - A terceira cor
+  - A última cor (usando `.length`)
+  
+12. Dado o array `let numeros = [10, 20, 30, 40, 50];` execute as operações:
+
+  - Adicione o número 60 no final
+  - Adicione o número 5 no início
+  - Remova o último elemento
+  - Remova o primeiro elemento
+  - Exiba o tamanho final do array
+
+13. Dado o array `let frutas = ["maça", "banana", "laranja", "uva", "manga"];` use `splice` para:
+
+  - Remover "laranja"
+  - Remover "banana" e "uva" de uma vez
+  - Exiba o array resultante
+
+14. Dado o array `let produtos = ["notebook", "mouse", "teclado", "monitor", "webcam"];` use diferentes métodos para percorrer:
+
+  - Exiba cada produto com seu índice (usando for tradicional)
+  - Exiba apenas os produtos (usando for of)
+  - Exiba "Produto: [nome]" para cada item (usando o forEach)
+
+15. Dado o array `let valores = [15, 23, 8, 42, 4, 16];` calcule e exiba:
+
+  - A soma de todos os valores
+  - O maior valor
+  - O menor valor
+  - Os valores pares
+  - Os valores ímpares
+
+## 🔥 **DESAFIOS**
+
+### Análise de Dados
+
+Dado o array de temperaturas de uma semana: `let temperaturas = [22, 25, 19, 30, 28, 23, 27];`. Calcule e exiba:
+
+  - Temperatura média da semana
+  - Dias com temperatura acima da média
+  - A maior temperatura e em qual dia ocorreu
+  - A menor temperatura e em qual dia ocorreu
+  - Quantos dias tiveram temperatura acima de 25°
+
+### Gerenciamento de Tarefas
+
+Crie um sistema simples de lista de tarefas:
+
+```js
+let tarefas = [];
+
+// Funções para implementar:
+function adicionarTarefa(tarefa) {
+  // adiciona uma nova tarefa
+}
+
+function removerTarefa(indice) {
+  // remove tarefa pelo índice
+}
+
+function listarTarefas() {
+  // lista todas as tarefas numeradas
+}
+
+function marcarConcluida(indice) {
+  // marca tarefa como concluída (adicione "✓" no início)
+}
+
+// Teste suas funções:
+adicionarTarefa("Estudar JavaScript");
+adicionarTarefa("Fazer exercícios");
+adicionarTarefa("Revisar arrays");
+listarTarefas();
+marcarConcluida(1);
+removerTarefa(0);
+listarTarefas();
+```
