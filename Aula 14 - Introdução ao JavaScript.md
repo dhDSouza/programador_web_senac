@@ -125,7 +125,7 @@ while (contador <= 5) {
 Arrays são **listas** onde guardamos vários dados em uma única variável.
 
 ```javascript
-const listaCompra = ["PS5", "Dollynho", "Pista do Tubarão Hot Wheels"];
+let listaCompra = ["PS5", "Dollynho", "Pista do Tubarão Hot Wheels"];
 ```
 
 #### 📌 Como acessar um item específico
