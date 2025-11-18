@@ -186,7 +186,7 @@ listaCompra.splice(1, 1); // remove 1 item na posição 1
 Exemplo:
 
 ```javascript
-const listaCompra = ["PS5", "Bicicleta", "Notebook Gamer Alienware 16 Aurora"];
+let listaCompra = ["PS5", "Bicicleta", "Notebook Gamer Alienware 16 Aurora"];
 listaCompra.splice(1, 1); 
 
 console.log(listaCompra); // ["PS5", "Notebook Gamer Alienware 16 Aurora"]
