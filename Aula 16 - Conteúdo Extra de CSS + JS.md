@@ -333,7 +333,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const btn = document.getElementById("toggleTheme");
 
         // Referência ao elemento <body> da página — vamos alternar classes nele.
-        // Importante: o código original usava `body` sem declarar; aqui declaramos.
         const body = document.body;
 
         // Usa a API Window.matchMedia para checar a preferência de tema do sistema.
