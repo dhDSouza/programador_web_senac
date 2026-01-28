@@ -234,9 +234,9 @@ DB_USER=
 DB_PASSWORD=
 ```
 
-✔ Pode subir para o GitHub
-✔ Serve como documentação
-✔ Facilita a configuração do projeto
+✔ Pode subir para o GitHub   
+✔ Serve como documentação   
+✔ Facilita a configuração do projeto   
 
 ---
 
