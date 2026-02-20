@@ -325,34 +325,33 @@ body {
 ### ⚙️ script.js
 
 ```javascript
+// Espera o DOM carregar antes de tentar acessar elementos.
+// Isso garante que elementos como o botão e o <body> já existam.
 document.addEventListener("DOMContentLoaded", () => {
-    // Espera o DOM carregar antes de tentar acessar elementos.
-    // Isso garante que elementos como o botão e o <body> já existam.
-    document.addEventListener("DOMContentLoaded", () => {
-        // Pega o botão com id="toggleTheme" (deve existir no HTML).
-        const btn = document.getElementById("toggleTheme");
+    // Pega o botão com id="toggleTheme" (deve existir no HTML).
+    const btn = document.getElementById("toggleTheme");
 
-        // Referência ao elemento <body> da página — vamos alternar classes nele.
-        const body = document.body;
+    // Referência ao elemento <body> da página — vamos alternar classes nele.
+    const body = document.body;
 
-        // Usa a API Window.matchMedia para checar a preferência de tema do sistema.
-        // 'prefers-color-scheme: dark' é um media query CSS (mas aqui estamos usando via JS).
-        // .matches retorna true se o usuário prefere esquema escuro no sistema.
-        const initialPrefersDark = window.matchMedia('prefers-color-scheme: dark').matches;
+    // Usa a API Window.matchMedia para checar a preferência de tema do sistema.
+    // 'prefers-color-scheme: dark' é um media query CSS (mas aqui estamos usando via JS).
+    // .matches retorna true se o usuário prefere esquema escuro no sistema.
+    const initialPrefersDark = window.matchMedia('prefers-color-scheme: dark').matches;
 
-        // Adiciona a classe inicial ao body — "dark" se o sistema prefere escuro,
-        // caso contrário "light".
-        // Essas classes devem existir no seu CSS para aplicar as cores correspondentes.
-        body.classList.add(initialPrefersDark ? "dark" : "light");
+    // Adiciona a classe inicial ao body — "dark" se o sistema prefere escuro,
+    // caso contrário "light".
+    // Essas classes devem existir no seu CSS para aplicar as cores correspondentes.
+    body.classList.add(initialPrefersDark ? "dark" : "light");
 
-        // Adiciona um listener para o clique do botão que alterna entre os temas.
-        btn.addEventListener("click", () => {
-            // classList.toggle alterna a presença de uma classe:
-            // - se "dark" existe, remove; se não existe, adiciona.
-            // Fazemos toggle nas duas classes para garantir que apenas uma esteja presente.
-            body.classList.toggle("dark");
-            body.classList.toggle("light");
-        });
+    // Adiciona um listener para o clique do botão que alterna entre os temas.
+    btn.addEventListener("click", () => {
+        alert('TESTE')
+        // classList.toggle alterna a presença de uma classe:
+        // - se "dark" existe, remove; se não existe, adiciona.
+        // Fazemos toggle nas duas classes para garantir que apenas uma esteja presente.
+        body.classList.toggle("dark");
+        body.classList.toggle("light");
     });
 });
 ```
