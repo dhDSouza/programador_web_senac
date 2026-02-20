@@ -346,7 +346,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Adiciona um listener para o clique do botão que alterna entre os temas.
     btn.addEventListener("click", () => {
-        alert('TESTE')
         // classList.toggle alterna a presença de uma classe:
         // - se "dark" existe, remove; se não existe, adiciona.
         // Fazemos toggle nas duas classes para garantir que apenas uma esteja presente.
